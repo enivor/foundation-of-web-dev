@@ -1,0 +1,21 @@
+nav {
+
+    background-color: blue;   
+}
+
+
+a {
+
+    color: cyan;
+    /* "color" property represents font color */
+
+    margin: 10px;
+}
+
+.content{
+
+    font-size: 14pt;
+    font-style: italic;
+    /* pt represents aka 1/72nd of an inch */
+}
+
