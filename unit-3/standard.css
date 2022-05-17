@@ -1,0 +1,40 @@
+html,
+body{
+    margin: 0;
+}
+
+
+header{
+
+    background-color:purple;
+    margin-bottom: 10px;
+
+}
+
+    nav{
+
+        float: right;
+        margin-right: 25px;
+
+    }
+
+    nav>a{
+
+        font-size: large;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 30px;
+    }
+
+    nav>a:hover{
+        color:black;
+    
+
+     .about-info{
+        border: 2px double; greeen;
+        margin-top: 10px;
+        width: 50vw;
+        text-align:center;
+        margin: 0; auto;
+
+    }
