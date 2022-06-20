@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<!--this is my font link-->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <!--custom css-->
     <link rel="stylesheet" href="css/standard.css">
     <title>Style Conference</title>
 </head>
@@ -17,10 +18,7 @@
     <!--this is the start of my body tag-->
     <!-- this will not show in the browser -->
 
-    <header class="container group">
-    
-
-        </nav>
+    <header class="primary-header container group">
         <!--Mom & Dad Child-->
         <h1 class="logo">
             <!--Headers Child-->
@@ -31,14 +29,16 @@
             </a>
         </h1>
 
-        <h3 class="tagline">August 23rd - 26th Omaha, NE</h3>       
+        <h3 class="tagline">August 23rd - 26th Omaha, NE</h3>
 
 
         <nav class="nav primary-nav">
-            <a href="index.html">Home</a>
-            <a href="speakers.html">Speakers</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="venue.html">Venue</a>
+            <ul>
+            <li<a href="index.html">Home</a></ul><li></li><!--
+            --><li<a href="speakers.html">Speakers</a></li><!--
+            --><li<a href="schedule.html">Schedule</a></li><!--
+            --><li<a href="venue.html">Venue</a></li>
+            </ul>
         </nav>
 
     </header>
@@ -54,15 +54,16 @@
     </section>
 
     <!--This is the start of the "Teaser" section aka the section that has blurbs of the other pages-->
-    <section class="grid">
+    <section class="row">
+        <div class="grid">
         <section class="teaser col-1-3">
             <!--This is teaser #1-->
-    
-            <a href="speakers.html">
                 <h5>Speakers</h5>
-
-                <h3>World Class Speakers</h3>
+                <a href="speakers.html">
+                <img src="style-conference/images/speaker.jpeg" alt="Professional Speaker"
+             <h3>World Class Speakers</h3>
             </a>
+        
 
             <p>
                 Joining us from all around the world are over twenty fantastic speakers, here to share their stories.
@@ -73,7 +74,10 @@
         --><section class="teaser col-1-3">
             <!--Teaser #2-->
             <a href="schedule.html">
-                <h5>Schedule</h5>
+                <a href="speakers.html">
+                 <img src="style-conference/images/Conference_Participants.jpeg" alt="World-wide attendees">
+
+              <h5>Schedule</h5>
 
                 <h3>Style Conference Tracks</h3>
             </a>
@@ -87,7 +91,9 @@
             <!--Teaser #3-->
 
             <a href="venue.html">
+            <img src="style-conference/images/Conference_center.jpeg" alt=Conference Center">   
                 <h5>Venue</h5>
+
 
                 <h3>Embassy Suites</h3>
             </a>
@@ -96,11 +102,10 @@
                 The Embassy Suites Conference Center will provide a spacious, professionally appealing conference venue.
             </p>
         </section>
+        </div>
     </section>
 
     <footer class="primary-footer container group">
-
-        
 
         <small> &copy; Developer Style Conference </small>
 
@@ -109,11 +114,6 @@
             <a href="speakers.html">Speakers</a>
             <a href="schedule.html">Schedule</a>
             <a href="venue.html">Venue</a>
-        </nav>
-
-        <nav class="nav">
-
-
         </nav>
 
     </footer>

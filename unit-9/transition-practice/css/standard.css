@@ -1,0 +1,56 @@
+#block1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(121, 16, 16);
+    width: 10%;
+    height: 10vh;
+    transition: all 1s;
+}
+
+#block2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 10vh;
+    width: 10%;
+    background-color: blueviolet;
+}
+
+#move {
+    position: absolute;
+    left: 25%;
+}
+
+#size {
+    position: absolute;
+    left: 39%;
+}
+
+#opacity {
+    position: absolute;
+    left: 35%;
+}
+
+#color {
+    position: absolute;
+    left: 45%;
+}
+
+#move:hover~#block1 {
+    top: 50%;
+    left: 50%;
+}
+
+#size:hover~#block1 {
+    transform: scale(2);
+    transform-origin: 0% 0%;
+}
+
+#color:hover {
+    background-color: orangered;
+}
+
+#opacity:hover~#block1 {
+    opacity: 0,5;
+}

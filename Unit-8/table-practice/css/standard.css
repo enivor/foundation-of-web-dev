@@ -1,0 +1,32 @@
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+
+
+td,th{
+    border: 1px solid black;
+}
+
+#customers tr:nth-child(even){
+    background-color: #ff2f2f;
+
+
+}
+
+#customers tr:hover{
+    background-color: #ddd;
+}
+
+#customers th{
+    background-color: #a53bc0;
+    color: white;
+    text-align: left;
+    padding-top: 12px;
+    padding-bottom: 12px;}
+
+
+ /*Scheule*/
+ 
+ 

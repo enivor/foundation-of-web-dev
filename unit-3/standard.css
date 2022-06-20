@@ -8,6 +8,11 @@ header{
 
     background-color:purple;
     margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+
 
 }
 
@@ -28,13 +33,47 @@ header{
 
     nav>a:hover{
         color:black;
+
+    }
     
 
      .about-info{
-        border: 2px double; greeen;
-        margin-top: 10px;
+        border: 2px double green;
         width: 50vw;
         text-align:center;
-        margin: 0; auto;
+        margin: 0 auto;
 
+    }
+
+    .photobox{
+
+        margin-top: 15px;
+        border: 1px solid black;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        left: 10%
+        
+        
+    }
+
+    .photobox div{
+
+       padding: 100px;
+       
+    }
+
+    .col{
+
+        
+    }
+
+    .photobox div :nth-child(2){
+        height: 200px;
+        
+    }
+        
+    .filler-text{
+        line-height: 5;
     }

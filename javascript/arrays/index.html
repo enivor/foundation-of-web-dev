@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Practice</title>
+
+    <script>
+        // thr first way to declare an array
+
+        var colors =[]  //createed an empty array called collors
+        
+        var
+     arrColor = new Array()  //creating an empty array called arrColor
+
+     colors = ["orange" , "red", "purple", "green", "yellow"];
+     //"colors" array with string values separated by commas
+
+     console.log(colors[2]);
+     alert("The third index value in our array is " + colors[2]);
+
+     colors[2] = "blue"
+     alert("The third index value in our array is now " + colors[2]);
+
+
+     console.log("The length of our colors array is" + colors.length);
+     //the length property is used to specify the ength of the array (how many values are inside thr array)
+
+
+     //push() methods adds a value to the end of the array
+
+     colors.push("pink");
+     console.log(colors.length);
+
+     // an array wih different data types
+     var array = ["Rovine" , {age:68}, 8, function hello(){
+     console.log("Hello World");
+    }]; 
+
+    alert(array[3]);
+    
+    //for loop to uterate over our colors array and return the value of each index # inside
+
+    for(var i = 0; i < colors.length; i++){
+        console.log("Color " + i + " is " + colors[i]);
+    }
+
+
+        </script>
+
+</head>
+<body>
+    
+</body>
+</html>
